@@ -3,6 +3,7 @@ $('.hiring--items > div').on('click', function(){
     $(this).next('.hiring--text').slideToggle(300);
     $(this).parent('.hiring--items').toggleClass('change--color');
     $(this).children('.hiring--about').toggleClass('change--color--about');
+    $(this).children('.border').toggleClass('change--color--about');
 });
 $('.features--item > div').on('click', function(){
     $(this).children('.features--hr').toggleClass('change--hr');
